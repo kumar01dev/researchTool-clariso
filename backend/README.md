@@ -1,0 +1,1 @@
+Right now the backend is by Supabase for matching the Production level application.

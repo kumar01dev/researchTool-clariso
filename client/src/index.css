@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.hero-one {
+    box-sizing: border-box;
+width: 100%;
+height: min-content;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 160px 40px 100px 40px;
+background: radial-gradient(80% 25% at 50% 7.5%, #031457 0%, rgb(0, 0, 0) 100%);
+overflow: hidden;
+align-content: center;
+flex-wrap: nowrap;
+gap: 44px;
+position: absolute;
+border-radius: 0px 0px 0px 0px;
+}
+
+
+/* custome scrollbar  */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 12px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #4b5563; /* Tailwind's zinc-600 */
+  border-radius: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #6b7280; /* zinc-500 */
+}
+
+/* Firefox */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #4b5563 transparent;
+}
