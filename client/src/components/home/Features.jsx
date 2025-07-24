@@ -39,7 +39,7 @@ function Features({id}) {
                 <h2 className="text-2xl text-white sm:text-4xl font-bold">Unlock Limitless Creativity <br className="hidden sm:block" />
                     with Powerful AI Features</h2>
                 <p className="my-10 text-gray-400 text-base sm:text-lg ">
-                    "Set reminders to revisit and <br className='lg:hidden'/>  retain what you learned."
+                    "Set reminders to revisit and retain what you learned."
                 </p>
             </div>
 
