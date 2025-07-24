@@ -4,6 +4,10 @@
 
 
 
+body{
+  background-color: black;
+};
+
 
 .hero-one {
     box-sizing: border-box;

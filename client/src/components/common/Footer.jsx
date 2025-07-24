@@ -65,12 +65,12 @@ import {Link} from 'react-router-dom'
 
 export default function Footer() {
   return (
-    <footer  className="bg-black text-white px-6 py-24">
-      {/* Main Content */}
+    <footer className='bg-black text-white py-8 ' >
+       {/* Main Content */}
       <div className="max-w-5xl mx-auto flex flex-col items-center text-center lg:flex-row lg:items-start lg:justify-between lg:text- gap-y-16 lg:gap-x-3 ">
 
         {/* Brand */}
-        <div className="lg:max-w-sm space-y-2">
+        <div className="lg:max-w-sm space-y-2 ">
           <h2 className="text-2xl font-bold"> clariso </h2>
           <p className="text-sm text-gray-400 ">The all-in-one trusted space for learners.</p>
           <span className="text-sm text-gray-400 block mt-1">support@clariso.co.in</span>
