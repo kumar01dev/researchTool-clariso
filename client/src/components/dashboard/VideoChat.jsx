@@ -54,7 +54,7 @@ export default function VideoChat({ videoId, user, onClose }) {
   if (loading) return <div className="text-white p-4">Loading chat...</div>;
 
   return (
-    <div className="bg-zinc-900 rounded-xl p-6 w-full max-w-lg relative max-h-[90vh] overflow-y-auto">
+    <div className="bg-zinc-900 rounded-xl p-6 w-full max-w-lg relative max-h-[90vh] overflow-y-auto custom-scrollbar">
       <button
         className="absolute top-2 right-2 text-gray-400 hover:text-white"
         onClick={onClose}

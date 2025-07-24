@@ -919,7 +919,7 @@ export default function AiFullChat() {
 
   // Main Render
   return (
-    <div className="flex flex-col w-full h-screen bg-[#0f0f0f] text-white px-4 py-6">
+    <div className="flex flex-col w-full h-screen bg-[#0f0f0f] text-white px-4 py-6 custom-scrollbar">
       {/* Messages Section */}
       <div className="flex-1 overflow-y-auto space-y-4 pr-2">
         {messages.length === 0 ? (

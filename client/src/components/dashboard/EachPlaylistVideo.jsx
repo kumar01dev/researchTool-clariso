@@ -335,7 +335,7 @@ function EachPlaylistVideo() {
   if (loading) return <div className="p-6 text-white">Loading...</div>;
 
   return (
-    <div className="p-6 h-full text-white bg-black">
+    <div className="p-6 h-full text-white bg-black custom-scrollbar">
       <h1 className="text-3xl font-bold mb-4">{playlist.title}</h1>
       <p className="text-sm text-zinc-400 mb-6">
         Updated {playlist.updated_at ? new Date(playlist.updated_at).toLocaleDateString() : "recently"}

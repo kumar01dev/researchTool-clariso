@@ -331,7 +331,7 @@ export default function PromptSection({ onSend, videoContext = false }) {
   };
 
   return (
-    <div className="w-[95%] max-w-4xl mx-auto p-2 flex flex-col">
+    <div className="w-[95%] max-w-4xl mx-auto p-2 flex flex-col custom-scrollbar">
       {/* Show loading state when processing */}
       {loading && (
         <div className="px-4 py-3 rounded-lg border border-[#333] bg-[#1b1b1b] text-left mb-4">
